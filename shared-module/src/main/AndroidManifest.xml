@@ -17,4 +17,6 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     android:targetSandboxVersion="2"
     package="com.example.billingmodule">
+    <uses-permission android:name="com.android.vending.BILLING" />
+    <uses-permission android:name="android.permission.INTERNET" />
 </manifest>
